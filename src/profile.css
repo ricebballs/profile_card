@@ -1,0 +1,142 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-box {
+  display: flex;
+  width: 600px;
+  height: 700px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 50px 50px;
+}
+
+.upper {
+  display: flex;
+  background-color: #0153a0;
+  width: 100%;
+  height: 300px;
+  border-radius: 50px 50px 0 0;
+}
+
+.upper img {
+  width: 225px;
+  height: 225px;
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  border: solid rgb(27, 253, 6);
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.lower {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+  background-color: white;
+  border-radius: 0px 0px 50px 50px;
+  margin-top: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.tag {
+  margin-top: 0;
+  padding: 0;
+}
+
+.social-btns {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.social-btns svg {
+  width: 40px;
+  height: 40px;
+  transition: 0.2s;
+}
+
+.social-btns svg:hover {
+  fill: var(--accent-color);
+}
+
+.interact-btns {
+  display: flex;
+  flex-direction: row;
+  grid-area: 15px;
+  width: 40px;
+  height: 5px;
+  gap: 40px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.subscribe-btn {
+  padding: 10px 30px;
+  border-radius: 20px;
+  background-color: rgb(38, 247, 38);
+  color: white;
+  border: none;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.2s;
+}
+
+.subscribe-btn:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
+
+.message-btn {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: rgb(38, 247, 38);
+  color: white;
+  border: none;
+  font-size: 15px;
+  transition: 0.2s;
+}
+
+.message-btn:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
+.social-rate {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  gap: 30px;
+  width: auto;
+  height: 10px;
+}
+
+.rate-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.social-rate img {
+  width: 50px;
+  height: 50px;
+}
